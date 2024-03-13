@@ -1,9 +1,10 @@
-# Introduction For Neural Architecture 
+# Introduction For Neural Architecture Retrieval (NAR)
 #### Code implementation of our Accepted Paper: Neural Architecture Retrieval.
 
 ![LICENSE](https://img.shields.io/github/license/TerryPei/NAR)
 ![VERSION](https://img.shields.io/badge/version-v1.01-blue)
 ![PYTHON](https://img.shields.io/badge/python-3.9.2-orange)
+
 <!-- ![MODEL](https://img.shields.io/badge/NAR) -->
 
 <!-- ## Poster
@@ -51,6 +52,19 @@ Generation: 10,000 sample / 7 sec (118 MB)
 - 3.28 min/ep @ bs=6
 - bs=512, GPU Mem=8.95GB
 - 3.15 min/ep bs=1,024, GPU Mem=20.75GB
+
+# Dataset
+
+**Real world Dataset**
+
+Download Link: [Real World Computational Graphs](https://drive.google.com/drive/folders/10bIbDNq4GqLNFGIkYD0swV8kVwLxJcYN?usp=drive_link).
+
+**NAS Dataset**
+
+```
+cd .
+python nas_arch_generation.py
+```
 
 ## Results
 ### Table 1: Comparison with baselines on real-world neural architectures and NAS data.
