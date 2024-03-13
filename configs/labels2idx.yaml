@@ -1,0 +1,3 @@
+root: 'datasets'
+tasks: [image-classification, image-segmentation, object-detection, pytorch-vision, fill-mask, sentence-similarity, token-classification, translation, question-answering, text-classification, sentence-classification, summarization, automatic-speech-recognition, ]
+output_root: 'maps'

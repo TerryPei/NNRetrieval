@@ -1,0 +1,35 @@
+save:
+    task_name: 'DartsPretraining'
+    exp_name: 'Exp'
+
+dataset:
+    subgraph_path: 'data/train'
+    graph_path: 'darts-macro.pt'
+
+subgraph_model:
+    in_channels: 72 
+    hidden_channels: 512
+    num_layers: 3
+    subgraph_lr: 0.0001
+    context_lr: 0.0001
+    epoch: 0
+    bs: 128
+
+graph_model:
+    in_channels: 512
+    hidden_channels: 256
+    num_layers: 3
+    num_regs: 3 # ! number of reg label
+    num_classes: 3 # ! range of class label [0, C), label_class
+    drop: 0.1
+    lr: 0.001
+    epoch: 15
+    bs: 512
+
+auto_model:
+    in_channels: 256
+    hidden_dim: [256, 128]
+    emb_dim: 64
+    
+logging_interval: 1
+device: 'cpu'
