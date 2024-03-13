@@ -45,7 +45,7 @@ python nas_arch_generation.py \
 python run_pretraining.py \
     --config configs/darts_pretraining.yaml \
     --dataset_graph_path 'data/darts-json-20000' \
-    --device 'cudu'
+    --device 'gpu'
 ```
 
 Generation: 10,000 sample / 7 sec (118 MB)
