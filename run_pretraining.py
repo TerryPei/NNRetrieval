@@ -112,16 +112,4 @@ def main():
 if __name__ == '__main__':
     main()
 
-"""
-
-[[baseline1, baseline2, ours] * [MAP@k, MRR@k, NGCD@k]] * [task_i,  nas_data]  * [k=10 k=100 k=500]
-eval(reg_out, reg_label) -> acc, 
-pretrain t-sne : figs: [baseline1, baseline2, ours]
-
-Abalation:
-Table: subgraph pretrain vs. graph pretrain
-Table: nas->GCN pretrain vs real->GCN pretrain
-T-SNE: only model_num no contrastive vs. contrastive: [MAP@k, MRR@k, NGCD@k]] * [task_i,  nas_data]  * [k=10 k=100 k=500]
-extract subgraph methods: random split vs. ours: [MAP@k, MRR@k, NGCD@k]] * [task_i,  nas_data]  * [k=10 k=100 k=500]
-"""
 
