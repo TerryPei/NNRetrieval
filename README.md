@@ -1,13 +1,12 @@
-# # Introduction For Neural Architecture Retrieval
+# Introduction For Neural Architecture 
+#### Code implementation of our Accepted Paper: Neural Architecture Retrieval.
 
-#### Code implementation of NAR.
-
-![LICENSE](https://img.shields.io/github/license/MAR)
+![LICENSE](https://img.shields.io/github/license/TerryPei/NAR)
 ![VERSION](https://img.shields.io/badge/version-v1.01-blue)
 ![PYTHON](https://img.shields.io/badge/python-3.9.2-orange)
-![MODEL](https://img.shields.io/badge/NAR)
+<!-- ![MODEL](https://img.shields.io/badge/NAR) -->
 
-# Install
+# Install `pytorch-geometric`
 
 ```shell script
 TORCH=`python -c "import torch; print(torch.__version__)"` &&
