@@ -2,6 +2,7 @@ __pycache__/
 DartsPretraining-Exp*/
 data/
 maps/
+.DS_Store
 
 
 
