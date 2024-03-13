@@ -1,4 +1,4 @@
-# Introduction For Neural Architecture Retrieval (NAR)
+# ICLR 2024: Neural Architecture Retrieval (NAR)
 #### Code implementation of our Accepted Paper: Neural Architecture Retrieval.
 
 ![LICENSE](https://img.shields.io/github/license/TerryPei/NAR)
@@ -95,7 +95,6 @@ python nas_arch_generation.py
 
 
 
-
-## Plaground Demo of Search Engine:
+## Playground Demo of Search Engine:
 
 > release soon
